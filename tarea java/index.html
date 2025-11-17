@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script src="java.js"></script>
+    <h1>AREA DE ASTRONOMIA</h1>
+
+<!-- 1 -->
+<div class="card">
+  <h2>1. Clasificación de brillo estelar</h2>
+  <input type="number" id="magnitud" placeholder="Ingrese magnitud aparente">
+  <button onclick="clasificarBrillo()">Clasificar</button>
+  <p id="resultado1"></p>
+</div>
+
+<!-- 2 -->
+<div class="card">
+  <h2>2. Distancias de planetas</h2>
+  <button onclick="registrarDistancias()">Registrar distancias</button>
+  <p id="resultado2"></p>
+</div>
+
+<!-- 3 -->
+<div class="card">
+  <h2>3. Cráteres mayores a 50 km</h2>
+  <button onclick="contarCraters()">Contar cráteres</button>
+  <p id="resultado3"></p>
+</div>
+
+<!-- 4 -->
+<div class="card">
+  <h2>4. Identificar cuerpo celeste</h2>
+  <input type="number" id="codigo" placeholder="Código 1-5">
+  <button onclick="identificar()">Identificar</button>
+  <p id="resultado4"></p>
+</div>
+
+<!-- 5 -->
+<div class="card">
+  <h2>5. Registro de niveles de luz</h2>
+  <button onclick="registrarLuz()">Registrar niveles</button>
+  <p id="resultado5"></p>
+</div>
+</body>
+</html>
